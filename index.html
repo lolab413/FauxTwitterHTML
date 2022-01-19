@@ -269,8 +269,8 @@ Hi, everyone. This is a fake looking twitter-esque post. Here is a <a href="#">l
 
       <p class="date-posted">Posted 
 
-        <time>01/18/2022 11:27:11 PM</time> 
-      </p> 
+        <time><span id="datetime"></span></p><script>var dt = new Date();document.getElementById("datetime").innerHTML=dt.toLocaleString();</script> 
+      </time> 
       <button class="heart"> 
         <img src="images/heart.png" id="heart-image-1" height="15" width="16"/> 
       </button> 
